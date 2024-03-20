@@ -1,0 +1,52 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    justify-content: left;
+    background:linear-gradient(to right,rgb(213, 77, 213),rgb(109, 192, 224))
+    
+}
+nav a:hover{
+    color: aqua;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+}
+body {
+    background-image: url('/img/photo.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100vh 100vh;
+    background-size: cover;
+  }
+.wan{
+    margin-top: 15%;
+}
+h1{
+    font-size: 3rem;
+    color: beige;
+}
+
+h4{
+    font-size: 1.5rem;
+    gap: 80%;
+    color: beige;
+}
+p{
+    color: beige;
+}
+.tre{
+    color: aqua;
+}
+.tre:hover{
+    color: rgb(234, 57, 104);
+}
